@@ -1,74 +1,141 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta name="Description" content="Carmelo Cascone is a PhD student in Information Technology at Politecnico di Milano and École Polytechnique de Montréal">
+  <title>Carmelo Cascone</title>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Ccascone.github.io : " />
+  <style>
+body {
+  font-family: Sans-Serif;
+  width: 640px;
+  margin: 1em auto;
+}
+#title { text-align: center; }
+#title h1, #title p { margin: 5px; }
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+h2 {
+  clear: both;
+  border-bottom: 2px solid black;
+  color: blue;
+  margin-top: 2em;
+}
 
-    <title>Ccascone.github.io</title>
-  </head>
+li {
+  margin-bottom: 1em;
+}
 
-  <body>
+.award {
+  color: red;
+  font-weight: bold;
+}
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ccascone">View on GitHub</a>
+#pic { float: right; margin-bottom: 25px; width: 30%}
+</style>
 
-          <h1 id="project_title">Ccascone.github.io</h1>
-          <h2 id="project_tagline"></h2>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
 
-        </header>
+<body>
+
+  <img src="cc.jpg" alt="Carmelo Cascone" id="pic" title="&copy; Flavio Lissandrello (www.flaviolissandrello.com)" />
+
+  <div id="title">
+    <h1>Carmelo Cascone</h1>
+    <p>
+      <a href="http://www.google.com/recaptcha/mailhide/d?k=01h78HziezIiajAIXWuOePGQ==&amp;c=5Eo4njtmG9tHgtbNeWnpaORBNV2znJi1RMoNPtcAVX4=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501h78HziezIiajAIXWuOePGQ\75\75\46c\0755Eo4njtmG9tHgtbNeWnpaORBNV2znJi1RMoNPtcAVX4\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="E-mail"><i class="fa fa-envelope-o"></i></a>
+      /
+      <a href="http://www.linkedin.com/in/carmelocascone" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+      /
+      <a href="https://twitter.com/carmelo_cascone" title="Twitter"><i class="fa fa-twitter"></i></a>
+      /
+      <a href="https://github.com/ccascone" title="Github"><i class="fa fa-github"></i></a>
+      /
+      <a href="https://scholar.google.com/citations?user=cSiEzKYAAAAJ" title="Google Scholar"><i class="fa fa-graduation-cap"></i></a>
+    </p>
+  </div>
+
+  <h2 id="about">About</h2>
+  <p>
+  I am third year PhD candidate in the Department of Electronics and Information at Politecnico di Milano, Italy where I work under the supervision of Prof. Antonio Capone, in co-tutorship with the Department of Electrical Engineering at École Polytechnique de Montréal, Canada where I am advised by Prof. Brunilde Sansò.
+  </p>
+  <p>
+  I am mainly interested in computer networks and systems. My research interests are mostly related to data plane programmability applied to reliability and resource management in Software-Defined Networking (SDN).
+  </p>
+  <p>
+  Before starting the PhD I received both Master's and Bachelor's degrees in Telecommunications Engineering from Politecnico di Milano.
+  </p> 
+  <p>
+  As of January 2016, I am also a Research Scholar Intern at Open Networking Laboratory (ON.Lab) in Menlo Park, CA where I'm working on the ONOS project.
+  </p>
+
+  <h2 id="projects">Projects</h2>
+  <ul>
+    <li>
+      <a href="http://www.beba-project.eu">BEBA (BEhavioral BAsed forwarding)</a>:
+      European H2020 project on SDN data plane. BEBA's ultimate goal is the implementation of future-proof network devices capable to be repurposed with middlebox-type functions well beyond static packet forwarding, with focus on monitoring and network security applications.
+    </li>
+    <li>
+      <a href="http://openstate-sdn.github.io">OpenState</a>
+      - Open-source stateful data plane API for SDN. We extend OpenFlow by adding primitives for flow-state transition and state machine abstraction, we also proivide a prototype implementation based on Mininet.
+    </li>
+    <li>
+      <a href="http://ccascone.github.io/JNetMan/">JNetMan</a> (discontinued)
+      - Lightweight Java framework for effortless development of SNMP-based network management applications.
+    </li>
+  </ul>
+
+  <h2 id="projects">Publications</h2>
+  <ul>
+    <li>
+    C. Cascone, L. Pollini, D. Sanvito, A. Capone, B. Sansò<em>“SPIDER: Fault Resilient SDN Pipeline with Recovery Delay Guarantees”</em>, in NetSoft 2016, to appear.
+    <div>
+      <a href="http://arxiv.org/abs/1511.05490">[arXiv]</a>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    </li>
+    <li>
+    C. Cascone, L. Pollini, D. Sanvito, A. Capone, <em>“Traffic Management Applications for Stateful SDN Data Plane”</em>, in EWSDN 2015, Oct 2015, to appear.
+    <div>
+      <a href="http://arxiv.org/abs/1506.07077">[arXiv]</a>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    </li>
+    <li>
+    A. Capone, C. Cascone, A. Q.T. Nguyen, B. Sansò, <em>“Detour Planning for Fast and Reliable Failure Recovery in SDN with OpenState”</em>, in DRCN 2015, to appear.
+    <div>
+      <span class="award">Best Paper Runner-Up Award</span>
+      <a href="http://arxiv.org/abs/1411.7711">[arXiv]</a>
     </div>
+    </li>
+    <li>
+      G. Bianchi, M. Bonola, A. Capone, C. Cascone, and S. Pontarelli, <em>“Towards Wire-speed Platform-agnostic Control of OpenFlow Switches”</em>, progress report, Aug. 2014.
+      <div>
+        <a href="http://arxiv.org/abs/1409.0242">[arXiv]</a>
+      </div>
+    </li>
+    <li>
+      G. Bianchi, M. Bonola, A. Capone, and C. Cascone, <em>“OpenState: Programming Platform-independent Stateful OpenFlow Applications Inside the Switch”</em> ACM SIGCOMM Computer Communication Review, vol. 44, no. 2, pp. 44–51, 2014.
+      <div>
+        <a href="pub/openstate-ccr.pdf">[PDF]</a>
+        <a href="pub/openstate-ccr.bib">[BibTex]</a>
+      </div>
+    </li>
+    <li>
+      A. Capone, C. Cascone, L. G. Gianoli, and B. Sanso, <em>“OSPF optimization via dynamic network management for green IP networks”</em> in 2013 Sustainable Internet and ICT for Sustainability (SustainIT), 2013, pp. 1–9.
+      <div>
+        <a href="pub/ospf-sustainit.pdf">[PDF]</a>
+        <a href="pub/ospf-sustainit.bib">[BibTex]</a>
+      </div>
+    </li>
+  </ul>
 
-    
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48837967-1', 'polimi.it');
+  ga('send', 'pageview');
+  </script>
 
-  </body>
+</body>
 </html>
